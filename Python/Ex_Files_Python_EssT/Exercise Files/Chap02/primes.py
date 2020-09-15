@@ -10,9 +10,12 @@ def isprime(n):
     else:
         return True
 
-n = 5
-if isprime(n):
-    print(f'{n} is prime')
-else:
-    print(f'{n} not prime')
+def list_prime():
+    for n in range(100):
+        if isprime(n):
+            print(n, end = ' ', flush=True)
+            print()
+            list_prime()
+
+
 
