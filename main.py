@@ -1,2 +1,2 @@
-fruits = ['mango', 'pear', 'banana']
-print(fruits[1])
+text = input('Enter Something: ')
+print(text.split('*'))
